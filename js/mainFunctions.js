@@ -52,8 +52,8 @@ $(function () {
 // Listener pour chargement adresse mailto
 window.addEventListener("load", function () {
   if (document.getElementById('insertMail')) {
-    let name = "contact" ; // Update yours informations here
-    let domain = "yourbandname.com" ; // Update yours informations here
+    let name = "KingRichardRosenbaum" ; // Update yours informations here
+    let domain = "gmail.com" ; // Update yours informations here
     //let subject = "subject=Formulaire Tuco" ;
     let divMail = document.getElementById('insertMail');
     let newAhref = document.createElement('a');
@@ -313,7 +313,7 @@ $(function () {
 
 // Locations
 $(function () {
-    $(".card").on('click', () => {window.location.href = "https://www.instagram.com/"});
+    $(".card").on('click', () => {window.location.href = "https://www.instagram.com/kingrichardrosenbaum/"});
 })
 // Location socials
 $(function () {
@@ -323,6 +323,6 @@ $(function () {
     });
     $('.instagram').on('click', function(event) {
       event.preventDefault();
-      window.location.href = "https://www.instagram.com/";
+      window.location.href = "https://www.instagram.com/kingrichardrosenbaum/";
     });
 })
